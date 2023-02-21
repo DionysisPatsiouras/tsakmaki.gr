@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid #EAEAEA;
+  text-align: center;
+  font-size: 11px;
+  background-color: white;
+  font-weight: 900;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+  color: #AB8C1E;
+}
+
+.footer p {
+  letter-spacing: 0;
+  width: 80vw;
+  line-height: 14px;
+}/*# sourceMappingURL=footer.module.css.map */

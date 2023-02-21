@@ -1,0 +1,39 @@
+.header {
+  padding: 0 10vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.toggle:hover, .media img:hover {
+  cursor: pointer;
+}
+
+.logo {
+  width: 174px;
+}
+
+.media {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    height: 144px;
+  }
+  .toggle {
+    display: none;
+  }
+  .logo {
+    width: 274px;
+  }
+  .media {
+    display: block;
+  }
+  .media img {
+    width: 35px;
+    padding: 0 0 0 10px;
+  }
+}/*# sourceMappingURL=header.module.css.map */

@@ -1,0 +1,33 @@
+.container
+    padding: 0
+    font-size: 15px
+    width: 80vw
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    line-height: 300%
+
+.container li
+    transition: 0.7s
+    padding: 7px 0
+    font-size: 20px
+    font-weight: 700
+
+.container li:hover
+    cursor: pointer
+    list-style-type: disc
+    color: #FCBB15
+    transition: 0s
+
+.desktopImages
+    display: none
+
+@media screen and ( min-width: 1024px  )
+
+    .desktopImages
+        display: block
+
+    .desktopImages img
+        display: block
+        width: 35vw
+        height: auto

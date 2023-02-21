@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.bottomLine {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone, .mail {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.phone a {
+  color: #313131;
+}
+
+.mail a {
+  color: white;
+}
+
+.phone img, .mail img {
+  width: 50px;
+  height: 50px;
+  padding: 0 0 10px 0;
+}
+
+.location {
+  display: block;
+  text-align: center;
+  margin: 40px 0;
+  color: #848484;
+}
+
+.map {
+  width: 100vw;
+  height: 400px;
+}
+
+.phone {
+  background-color: #FCBB15;
+}
+
+.mail {
+  background-color: #313131;
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .phone, .mail {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .location {
+    display: none;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .map {
+    width: 50vw;
+    height: 60vh;
+  }
+  .phone, .mail {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=contact.module.css.map */
