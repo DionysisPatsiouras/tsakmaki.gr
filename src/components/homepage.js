@@ -21,8 +21,8 @@ export default function Homepage() {
                         <Link to='/contact'><li>ΕΠΙΚΟΙΝΩΝΙΑ</li></Link>
                     </ul>
                 </nav>
-                <div className={style.video}>
-                    <img src='/img/preview/0.jpg' alt='video' />
+                <div className={style.video} style={{backgroundImage : "url('/img/preview/0.jpg')"}}>
+                    {/* <img src='/img/preview/0.jpg' alt='video' /> */}
                 </div>
             </div>
             <Footer />
