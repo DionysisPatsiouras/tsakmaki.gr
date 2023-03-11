@@ -22,7 +22,7 @@ export default function Contact() {
                         <h2><a href="mailto:info@tsakmaki.gr"> info@tsakmaki.gr</a></h2>
                     </div>
                     <div className={style.mail}>
-                        <img src='/img/icons/phone-white.svg' style={{'fill' : 'red'}} alt='Phone Number' />
+                        <img src='/img/icons/phone-white.svg' alt='Phone Number' />
                         <h2><a href='tel:+30 2410613758'>2410 613758 </a> • <a href='tel:+30 6932022321'>693 202 2321</a></h2>
                     </div>
                 </div>
